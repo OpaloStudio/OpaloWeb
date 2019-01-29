@@ -120,6 +120,41 @@ elseif(isset($_GET['page'])){
 		include('vistas/modulos/zonaA_formulario.php');
 		break;
 
+		case '5':
+		//Publicación
+		include('vistas/modulos/zonaA_ludi.php');
+		break;
+
+		case '6':
+		//Publicación
+		include('vistas/modulos/zonaA_floyd.php');
+		break;
+
+		case '7':
+		//Publicación
+		include('vistas/modulos/zonaA_lookgeo.php');
+		break;
+
+		case '8':
+		//Publicación
+		include('vistas/modulos/zonaA_pao.php');
+		break;
+
+		case '9':
+		//Publicación
+		include('vistas/modulos/zonaA_proto.php');
+		break;
+
+		case '10':
+		//Publicación
+		include('vistas/modulos/zonaA_cumbre.php');
+		break;
+
+		case '11':
+		//Publicación
+		include('vistas/modulos/zonaA_alex.php');
+		break;
+
 		
 
 	}
@@ -168,6 +203,41 @@ elseif(isset($_GET['page'])){
 		case '4':
 		//Publicación
 		include('vistas/modulos/zonaB_formulario.php');
+		break;
+
+		case '5':
+		//Publicación
+		include('vistas/modulos/zonaB_ludi.php');
+		break;
+
+		case '6':
+		//Publicación
+		include('vistas/modulos/zonaB_floyd.php');
+		break;
+
+		case '7':
+		//Publicación
+		include('vistas/modulos/zonaB_lookgeo.php');
+		break;
+
+		case '8':
+		//Publicación
+		include('vistas/modulos/zonaB_pao.php');
+		break;
+
+		case '9':
+		//Publicación
+		include('vistas/modulos/zonaB_proto.php');
+		break;
+
+		case '10':
+		//Publicación
+		include('vistas/modulos/zonaB_cumbre.php');
+		break;
+
+		case '11':
+		//Publicación
+		include('vistas/modulos/zonaB_alex.php');
 		break;
 
 		
