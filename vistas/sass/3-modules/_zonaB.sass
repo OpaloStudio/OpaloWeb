@@ -2,6 +2,21 @@ $bar-width: 100px
 $bar-height: 10px
 $bar-spacing: 25px
 
+@font-face
+    font-family: "AbertaBold"
+    src: url("../tipos/AvertaStd-Bold/AvertaStd-Bold.eot")
+    src: url("../tipos/AvertaStd-Bold/AvertaStd-Bold.eot?#amocristalab") format("embedded-opentype"),url("../tipos/AvertaStd-Bold/AvertaStd-Bold.woff") format("woff"),url("../tipos/AvertaStd-Bold/AvertaStd-Bold.ttf") format("truetype"),url("../tipos/AvertaStd-Bold/AvertaStd-Bold.svg#AvertaStd-Bold") format("svg")
+
+@font-face
+    font-family: "AbertaBoldItalic"
+    src: url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.eot")
+    src: url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.eot?#AvertaStd-BoldItalic") format("embedded-opentype"),url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.woff") format("woff"),url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.ttf") format("truetype"),url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.svg#A") format("svg")
+
+@font-face
+    font-family: "Aberta-semibold"
+    src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot")
+    src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot?#amocristalab") format("embedded-opentype"),url("../tipos/AvertaStd-semibold/AvertaStd-semibold.woff") format("woff"),url("../tipos/AvertaStd-semibold/AvertaStd-semibold.ttf") format("truetype"),url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-semibold") format("svg")
+
 .zonaB
     display: flex !important
     flex-direction: column !important
@@ -45,10 +60,16 @@ $bar-spacing: 25px
     
 .links
     text-decoration: none !important
+    color: white
     
 .links:hover
-    color: white
+    color: #432C47
     text-decoration: none !important
+
+.linksText
+    font-family: "Aberta-semibold"
+    font-size: 100px
+
 
 .hamburger-menu,
 .hamburger-menu:after,
