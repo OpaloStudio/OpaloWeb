@@ -1,0 +1,1 @@
+<img class="imgCambiante" id="imgWork" src="vistas/img/portafolio/ludicultura/logo1.png">
