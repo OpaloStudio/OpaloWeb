@@ -34,12 +34,15 @@ body {
   background-color: #FE5442; }
 
 .descripcion {
-  color: white; }
+  color: white;
+  font-family: "AbertaBoldItalic";
+  font-size: 25px; }
 
 .info {
   background-color: #FE5442;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding: 25px; }
 
 .desaparecer {
   display: none !important; }
@@ -70,8 +73,14 @@ body {
   text-decoration: none !important; }
 
 .linksText {
-  font-family: "Aberta-semibold";
-  font-size: 100px; }
+  font-family: "AbertaBoldItalic";
+  font-size: 100px;
+  transition: all 0.2s ease-in-out;
+  margin-left: 50px; }
+
+.linksText:hover {
+  font-size: 150px;
+  transform: scale(1.1); }
 
 .hamburger-menu,
 .hamburger-menu:after,
@@ -140,7 +149,8 @@ body {
 .tituloContacto {
   font-family: "AbertaBoldItalic";
   color: #432C47;
-  font-size: 30px; }
+  font-size: 30px;
+  margin-top: 15px; }
 
 .formContacto {
   width: 100%; }
@@ -285,10 +295,10 @@ body {
 
 .subtitulo {
   color: white;
-  font-size: 35px;
-  margin-top: 0px;
-  margin-left: 25px;
-  font-family: "Aberta-semibold"; }
+  font-size: 30px;
+  font-family: "Aberta-semibold";
+  text-align: justify;
+  padding-right: 50px; }
 
 .flexy {
   display: flex;

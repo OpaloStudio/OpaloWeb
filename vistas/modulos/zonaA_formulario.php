@@ -44,6 +44,11 @@
   <div class="flexContacto">
     <h1 class="tituloContacto">Tiempo y presupuesto</h1>
   </div>
+  <div class="sliders">
+  <input type="text" class="sliderDos"  name="my_range" value="" />
+
+  <div id="sliders"></div>
+  </div>
 
   <div class="zonaBtnSubmit">
     <input class="btnSubmit" type="submit" value="Enviar">
