@@ -42,7 +42,8 @@ body {
   background-color: #FE5442;
   height: 100%;
   width: 100%;
-  padding: 25px; }
+  padding: 25px;
+  overflow: hidden; }
 
 .desaparecer {
   display: none !important; }
@@ -300,12 +301,26 @@ body {
   text-align: justify;
   padding-right: 50px; }
 
-.flexy {
-  display: flex;
-  flex-direction: column; }
+.zonaTextoVideo {
+  height: 500px; }
+
+.tile1 {
+  display: none; }
+
+.tile2 {
+  display: none; }
+
+.tile3 {
+  display: none; }
+
+.botonVideo {
+  position: fixed;
+  bottom: 100px;
+  height: 50px !important;
+  cursor: pointer; }
 
 .fondo {
-  background-color: black;
+  background-color: #432C47;
   height: 100%;
   display: flex;
   justify-content: center;

@@ -24,24 +24,24 @@ session_start();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link href="vistas/css/app.css" media="all" rel="stylesheet" type="text/css" />
+	<!--link rel="stylesheet" href="vistas/js/plugins/jqueryui/jquery-ui.css"-->
+	<link href="//cdn.bootcss.com/noUiSlider/8.5.1/nouislider.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-		<link href="//cdn.bootcss.com/noUiSlider/8.5.1/nouislider.min.css" rel="stylesheet">
-    <script src="//cdn.bootcss.com/noUiSlider/8.5.1/nouislider.js"></script>
-	
-		
-
+        crossorigin="anonymous"></script
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
 		
+		
     <?php
 	include('controladores/controlador.barra.php');
+	include('controladores/controlador.zonaB_video.php');
 	//Los controladores que se utilizan en todas las páginas, se incluyen fuera del if de abajo.
 	
 	if(isset($_GET['id'])){
 		include('controladores/controlador.finalizacionPago.php');
+		
 	}
 	elseif(isset($_GET['page'])){//Esta variable verifica que exista un id para la página visitada,
 						   //si no existe, es porque está en el index, entonces lo del index se incluye
@@ -51,7 +51,7 @@ session_start();
 
 			case '1':
 			//Registro
-			include('controladores/controlador.docker.php');
+			//include('controladores/controlador.zonaB_video.php');
 			break;
 
 			case '2':
