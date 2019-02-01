@@ -361,4 +361,13 @@ body {
   margin-left: 25px;
   font-family: "AbertaBoldItalic"; }
 
+.flexWork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+.contenedorWork {
+  color: white; }
+
 /*# sourceMappingURL=app.css.map */
