@@ -36,7 +36,7 @@ session_start();
 		
     <?php
 	include('controladores/controlador.barra.php');
-	//include('controladores/controlador.zonaB_video.php');
+	include('controladores/controlador.zonaB_video.php');
 	//Los controladores que se utilizan en todas las páginas, se incluyen fuera del if de abajo.
 	
 	if(isset($_GET['id'])){

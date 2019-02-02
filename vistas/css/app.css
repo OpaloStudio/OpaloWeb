@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600,700");
 body {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  overflow: hidden; }
 
 .zonaA {
   background-color: #DDDDDD;
@@ -369,5 +370,12 @@ body {
 
 .contenedorWork {
   color: white; }
+
+.zonaLogo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=app.css.map */

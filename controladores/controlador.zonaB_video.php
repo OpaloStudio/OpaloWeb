@@ -1,5 +1,5 @@
 <script>
-
+/*
 function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
     node.classList.add('animated', animationName)
@@ -12,7 +12,7 @@ function animateCss(element, animationName, callback) {
     }
 
     node.addEventListener('animationend', handleAnimationEnd)
-}
+}*/
 
 
 var pag = -1;

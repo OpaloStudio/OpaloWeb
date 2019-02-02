@@ -1,5 +1,5 @@
 <script>
-    function animateCss(element, animationName, callback) {
+  /*  function animateCss(element, animationName, callback) {
         const node = document.querySelector(element)
         node.classList.add('animated', animationName)
 
@@ -12,7 +12,7 @@
 
         node.addEventListener('animationend', handleAnimationEnd)
     }
-
+*/
 
     var x = -1;
 
@@ -24,6 +24,7 @@
         imagen.src = "vistas/img/portafolio/ludicultura/logo1.png";
         $("#linkWork").attr("href", "?page=5");
         animateCss('.nombreProyecto', 'bounceInUp');
+        $('.zonaA').css('background-color', 'white');
 
 
 
@@ -43,8 +44,9 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                    imagen.src = "vistas/img/portafolio/ludicultura/logo1.png";
-                    $("#linkWork").attr("href", "?page=5");
+                        imagen.src = "vistas/img/portafolio/ludicultura/logo1.png";
+                        $("#linkWork").attr("href", "?page=5");
+                        $('.zonaA').css('background-color', 'white');
                     });
                     break;
 
@@ -56,6 +58,7 @@
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/floyd/floyd.jpg";
                         $("#linkWork").attr("href", "?page=6");
+                        $('.zonaA').css('background-color', '#3c3737');
                     });
                     console.log(x);
                     break;
@@ -68,6 +71,7 @@
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/lookgeo/logo.png";
                         $("#linkWork").attr("href", "?page=7");
+                        $('.zonaA').css('background-color', '#FE674C');
                     });
                     break;
 
@@ -79,6 +83,7 @@
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/paopetite/paopettit.jpg";
                         $("#linkWork").attr("href", "?page=8");
+                        $('.zonaA').css('background-color', '#F7CED7');
                     });
                     break;
 
@@ -90,17 +95,19 @@
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/protoplasma/logo.png";
                         $("#linkWork").attr("href", "?page=9");
+                        $('.zonaA').css('background-color', '#464646');
                     });
                     break;
 
                 case 5:
-                    text = "Cumbre";
+                    text = "Cumbre con causa";
                     animateCss('.nombreProyecto', 'bounceOutUp', function () {
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/cumbre/logo.png";
                         $("#linkWork").attr("href", "?page=10");
+                        $('.zonaA').css('background-color', '#F9B036');
                     });
                     break;
 
@@ -112,6 +119,7 @@
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/alexferez/logo.png";
                         $("#linkWork").attr("href", "?page=11");
+                        $('.zonaA').css('background-color', '#F3F3F3');
                     });
                     break;
 
