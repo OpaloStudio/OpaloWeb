@@ -21,7 +21,7 @@
 
         text = "Ludicultura";
         var imagen = document.getElementById("imgWork");
-        imagen.src = "vistas/img/portafolio/ludicultura/logo1.png";
+        imagen.src = "vistas/img/portafolio/ludicultura/1.png";
         $("#linkWork").attr("href", "?page=5");
         animateCss('.nombreProyecto', 'bounceInUp');
         $('.zonaA').css('background-color', 'white');
@@ -44,9 +44,9 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/ludicultura/logo1.png";
+                        imagen.src = "vistas/img/portafolio/ludicultura/1.png";
                         $("#linkWork").attr("href", "?page=5");
-                        $('.zonaA').css('background-color', 'white');
+                        $('.zonaA').css('background-color', '#FFFFFF');
                     });
                     break;
 
@@ -56,7 +56,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/floyd/floyd.jpg";
+                        imagen.src = "vistas/img/portafolio/floyd/1.png";
                         $("#linkWork").attr("href", "?page=6");
                         $('.zonaA').css('background-color', '#3c3737');
                     });
@@ -69,7 +69,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/lookgeo/logo.png";
+                        imagen.src = "vistas/img/portafolio/lookgeo/1.png";
                         $("#linkWork").attr("href", "?page=7");
                         $('.zonaA').css('background-color', '#FE674C');
                     });
@@ -81,7 +81,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/paopetite/paopettit.jpg";
+                        imagen.src = "vistas/img/portafolio/paopetite/1.jpg";
                         $("#linkWork").attr("href", "?page=8");
                         $('.zonaA').css('background-color', '#F7CED7');
                     });
@@ -93,7 +93,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/protoplasma/logo.png";
+                        imagen.src = "vistas/img/portafolio/protoplasma/1.png";
                         $("#linkWork").attr("href", "?page=9");
                         $('.zonaA').css('background-color', '#464646');
                     });
@@ -105,7 +105,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/cumbre/logo.png";
+                        imagen.src = "vistas/img/portafolio/cumbre/1.png";
                         $("#linkWork").attr("href", "?page=10");
                         $('.zonaA').css('background-color', '#F9B036');
                     });
@@ -117,7 +117,7 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/alexferez/logo.png";
+                        imagen.src = "vistas/img/portafolio/alexferez/1.png";
                         $("#linkWork").attr("href", "?page=11");
                         $('.zonaA').css('background-color', '#F3F3F3');
                     });

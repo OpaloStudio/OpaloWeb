@@ -25,18 +25,25 @@ session_start();
         crossorigin="anonymous">
     <link href="vistas/css/app.css" media="all" rel="stylesheet" type="text/css" />
 	<!--link rel="stylesheet" href="vistas/js/plugins/jqueryui/jquery-ui.css"-->
-	<link href="//cdn.bootcss.com/noUiSlider/8.5.1/nouislider.min.css" rel="stylesheet">
+	<!-- plus a jQuery UI theme, here I use "flick" -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<!--Plugin CSS file with desired skin-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-		
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
+ 
+                
+	
 		
     <?php
 	include('controladores/controlador.barra.php');
-	include('controladores/controlador.zonaB_video.php');
+	//include('controladores/controlador.zonaB_video.php');
 	//Los controladores que se utilizan en todas las páginas, se incluyen fuera del if de abajo.
 	
 	if(isset($_GET['id'])){

@@ -1,25 +1,32 @@
 <script>
-  
-    $("#sliders").ionRangeSlider({
+$(function() {
+
+$(".sliderDos").ionRangeSlider({
+        skin: "round",
         type: "double",
-        grid: true,
         min: 0,
         max: 1000,
         from: 200,
-        to: 800,
-        prefix: "$"
+        to: 500,
+        grid: true
     });
+/*
+$("#flat-slider")
+    .slider({
+        max: 50,
+        min: 0,
+        range: true,
+        values: [15, 35]
+    })
+    .slider("pips", {
+        first: "pip",
+        last: "pip"
+    });
+             */       
 
 
-var slider = document.getElementById('sliders');
-
-noUiSlider.create(slider, {
-    start: [20, 80],
-    connect: true,
-    range: {
-        'min': 0,
-        'max': 100
-    }
 });
+  
+    
     
 </script>

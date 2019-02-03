@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACX,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;;AAGf,mBAAmB;EACf,MAAM,EAAE,KAAK",
+"sources": ["../../sass/3-modules/zonaA_cumbre.sass"],
+"names": [],
+"file": "zonaA_cumbre.css"
+}
