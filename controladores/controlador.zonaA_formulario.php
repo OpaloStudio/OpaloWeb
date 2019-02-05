@@ -1,6 +1,15 @@
 <script>
 $(function() {
 
+    $(".sliderUno").ionRangeSlider({
+        skin: "round",
+        min: 0,
+        max: 1000,
+        from: 200,
+        to: 500,
+        grid: true
+    });
+
 $(".sliderDos").ionRangeSlider({
         skin: "round",
         type: "double",

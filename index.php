@@ -37,6 +37,7 @@ session_start();
         crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
+	<script src="vistas/js/jquery.nicescroll.min.js"></script>
  
                 
 	

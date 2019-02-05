@@ -47,6 +47,9 @@
     </div>
     <div class="sliders">
     <div class="colorcin">
+    <span class="labelInput">Tiempo:</span>
+      <input type="text" class="sliderUno"  name="my_range" value="" /> <br>
+      <span class="labelInput">Presupuesto</span>
       <input type="text" class="sliderDos"  name="my_range" value="" />
     </div>
   
