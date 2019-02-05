@@ -22,7 +22,7 @@
     <div class="flexContacto">
       <h1 class="tituloContacto">Tipo de Proyecto</h1>
     </div>
-  
+
     <div class="flexBotones">
       <div class="zonaBotones">
         <button class="btnFormulario">Branding</button>
@@ -46,18 +46,21 @@
       <h1 class="tituloContacto">Tiempo y presupuesto</h1>
     </div>
     <div class="sliders">
-    <div class="colorcin">
-    <span class="labelInput">Tiempo:</span>
-      <input type="text" class="sliderUno"  name="my_range" value="" /> <br>
-      <span class="labelInput">Presupuesto</span>
-      <input type="text" class="sliderDos"  name="my_range" value="" />
+      <div class="colorcin">
+        <span class="labelInput">Tiempo: </span><span class="labelInput" id="labelTiempo"></span><span class="labelInput"> meses</span>
+        <br><br>
+        <input type="text" class="sliderUno" name="my_range" value="" /> <br>
+        <span class="labelInput">Presupuesto: $</span><span class="labelInput" id="labelPresupuesto1"></span><span class="labelInput"> - $</span><span class="labelInput" id="labelPresupuesto2"></span>
+        <br><br>
+        <input type="text" class="sliderDos" name="my_range" value="" />
+      </div>
+      <br><br>
+
+      <div id="sliders">
+        <div id="flat-slider"></div>
+      </div>
     </div>
-  
-    <div id="sliders">
-    <div id="flat-slider"></div>
-    </div>
-    </div>
-  
+
     <div class="zonaBtnSubmit">
       <input class="btnSubmit" type="submit" value="Enviar">
     </div>
