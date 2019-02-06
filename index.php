@@ -38,6 +38,11 @@ session_start();
 	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 	<script src="vistas/js/jquery.nicescroll.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
+	
 
 
 
@@ -75,6 +80,11 @@ session_start();
 			case '4':
 			//Publicación
 			include('controladores/controlador.zonaA_formulario.php');
+			break;
+
+			case '5':
+			//Publicación
+			include('controladores/controlador.zonaB_ludi.php');
 			break;
 
 			
