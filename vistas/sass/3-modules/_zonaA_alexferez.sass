@@ -3,10 +3,31 @@
 .zonaLogoAlexFerez
     background-color: #F3F3F3
     display: flex
-    flex-direction: column
     align-items: center
-    width: 50vw !important
+    justify-content: center
+    height: 100vh
     
 
 .imgCambianteAlexFerez
     height: 400px !important
+    position: absolute
+    opacity: 0
+
+
+.show
+    //display: block
+    transition: opacity 1s linear
+    -webkit-transition: opacity 1s ease-in-out
+    -moz-transition: opacity 1s ease-in-out
+    -ms-transition: opacity 1s ease-in-out
+    -o-transition: opacity 1s ease-in-out
+    opacity: 1
+
+.hide
+    //display: block
+    transition: opacity 1s linear
+    -webkit-transition: opacity 1s ease-in-out
+    -moz-transition: opacity 1s ease-in-out
+    -ms-transition: opacity 1s ease-in-out
+    -o-transition: opacity 1s ease-in-out
+    opacity: 0

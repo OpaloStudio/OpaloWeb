@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600,700");
 body {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  overflow: hidden; }
 
 .zonaA {
   background-color: #DDDDDD;
@@ -512,60 +513,205 @@ body {
 .zonaLogoFloyd {
   background-color: #3c3737;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambianteFloyd {
-  height: 400px; }
+  height: 400px;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaFloyd {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 .zonaLogoLookgeo {
   background-color: #FE674C;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 50vw; }
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambianteLookgeo {
-  height: 400px; }
+  height: 400px;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaLookgeo {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 .zonaLogoPaoPetite {
   background-color: #F7CED7;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 50vw; }
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambiantePaoPetite {
-  height: 400px; }
+  height: 400px;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaPaoPetite {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 .zonaLogoProtoplasma {
   background-color: #464646;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 50vw; }
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambianteProtoplasma {
-  height: 400px; }
+  height: 400px;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaProtoplasma {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 .zonaLogoCumbre {
   background-color: #FE674C;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 50vw; }
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambianteCumbre {
-  height: 400px; }
+  height: 400px;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaCumbre {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 .zonaLogoAlexFerez {
   background-color: #F3F3F3;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 50vw !important; }
+  justify-content: center;
+  height: 100vh; }
 
 .imgCambianteAlexFerez {
-  height: 400px !important; }
+  height: 400px !important;
+  position: absolute;
+  opacity: 0; }
+
+.show {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 1; }
+
+.hide {
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  opacity: 0; }
+
+#zonaAlexFerez {
+  height: 65vh;
+  width: 40vw;
+  text-align: justify;
+  overflow: hidden; }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,6 +1,8 @@
 <div class="info flexy">
     <h1 class="titulo">Pao Petite</h1>
-    <p class="descripcion">
+    <div id="zonaPaoPetite">
+        <div class="wrap">
+    <p class="descripcion" id="uno">
         Así como realizamos grandes y medianos proyectos, el desarrollo de la identidad de una diseñadora de
         información visual que lanza su marca como freelancer es uno de ellos.
 
@@ -16,13 +18,14 @@
     </p>
 
 
-    <p class="descripcion">
+    <p class="descripcion" id="dos">
         Se le brindó este servicio para dar la oportunidad a desarrollar identidades a personas de nuestro mismo rubro.
 
     </p>
 
 
 
-
+    </div>
+    </div>
 
 </div>
