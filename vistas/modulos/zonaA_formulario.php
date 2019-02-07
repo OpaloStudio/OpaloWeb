@@ -25,12 +25,12 @@
 
     <div class="flexBotones">
       <div class="zonaBotones">
-        <button class="btnFormulario">Branding</button>
-        <button class="btnFormulario">Web-site</button>
-        <button class="btnFormulario">Copy-wrating</button>
-        <button class="btnFormulario">Publicidad</button>
-        <button class="btnFormulario">Software</button>
-        <button class="btnFormulario">Otro</button>
+        <button class="btnFormulario" id="btn1"  type="button">Branding</button>
+        <button class="btnFormulario" id="btn2"  type="button">Web-site</button>
+        <button class="btnFormulario" id="btn3"  type="button">Copy-wrating</button>
+        <button class="btnFormulario" id="btn4"  type="button">Publicidad</button>
+        <button class="btnFormulario" id="btn5"  type="button">Software</button>
+        <button class="btnFormulario" id="btn6"  type="button">Otro</button>
       </div>
     </div>
     <br><br>

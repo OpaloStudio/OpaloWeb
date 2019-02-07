@@ -13,11 +13,11 @@
         });
 
         $d3.on("change", function () {
-        var $inp = $(this);
-        var from = $inp.prop("value"); // reading input value
-    
-        $("#labelTiempo").html(from);
-    });
+            var $inp = $(this);
+            var from = $inp.prop("value"); // reading input value
+
+            $("#labelTiempo").html(from);
+        });
 
         var $d4 = $(".sliderDos");
 
@@ -54,22 +54,29 @@
             bouncescroll: true
         });
 
+        function activo() {
+            this.toggleClass = "activo";
+            console.log("yeah");
+        }
 
-
-        /*
-        $("#flat-slider")
-            .slider({
-                max: 50,
-                min: 0,
-                range: true,
-                values: [15, 35]
-            })
-            .slider("pips", {
-                first: "pip",
-                last: "pip"
-            });
-                     */
-
+        $("#btn1").click(function () {
+            $("#btn1").toggleClass("activo");
+        });
+        $("#btn2").click(function () {
+            $("#btn2").toggleClass("activo");
+        });
+        $("#btn3").click(function () {
+            $("#btn3").toggleClass("activo");
+        });
+        $("#btn4").click(function () {
+            $("#btn4").toggleClass("activo");
+        });
+        $("#btn5").click(function () {
+            $("#btn5").toggleClass("activo");
+        });
+        $("#btn6").click(function () {
+            $("#btn6").toggleClass("activo");
+        });
 
     });
 </script>
