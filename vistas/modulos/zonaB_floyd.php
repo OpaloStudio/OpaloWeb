@@ -14,10 +14,10 @@
             </p>
 
             <p class="descripcion" >
-                Se detectaron varios problemas en la incursión de la agencia:
+                Se detectaron varios problemas en la incursión de la agencia:<span id="dos"></span>
             </p>
 
-            <ul class="descripcion" id="dos">
+            <ul class="descripcion" >
                 <li>La identidad poseía demasiada carga social, impidiendo modificar ciertos factores</li>
                 <li>Poseía una carga visual exagerada</li>
                 <li>Resultaba poco legible y recordable</li>
@@ -26,11 +26,11 @@
             </ul>
 
             <p class="descripcion" >
-                A lo largo de los 2 meses que nos involucramos a fondo, convivimos con muchas personas involucradas y
+                A lo largo de los 2 meses que nos involucramos<span id="tres"></span> a fondo, convivimos con muchas personas involucradas y
                 conseguimos con gran satisfacción el poder concretar “un mil voces” en un sólo proyecto.
             </p>
 
-            <p class="descripcion" id="tres">
+            <p class="descripcion" >
                 De esta experiencia conseguimos generar una estrategia efectiva que mantuviera la proactividad y
                 armonía. Así
                 como impulsar el crecimiento de la agencia para la organización de más eventos. Actualmente Floyd está

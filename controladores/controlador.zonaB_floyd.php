@@ -15,7 +15,7 @@
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
                 triggerElement: '#uno',
-                duration: 250
+                duration: 480
             })
             .setClassToggle('#imgFloyd1', 'show')
             .on("end", function (event) {
@@ -28,7 +28,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#dos',
-                duration: 320
+                duration: 300
             })
             .setClassToggle('#imgFloyd2', 'show')
             .on("end", function (event) {

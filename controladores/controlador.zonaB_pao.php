@@ -15,7 +15,7 @@
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
                 triggerElement: '#uno',
-                duration: 250
+                duration: 270
             })
             .setClassToggle('#imgPao1', 'show')
             .on("end", function (event) {

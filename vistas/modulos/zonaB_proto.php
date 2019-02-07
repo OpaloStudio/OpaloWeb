@@ -62,7 +62,7 @@
                 existencia de Protoplasma y de las ideas que pueden plasmar ahí. Por lo tanto, se realizó una
                 estrategia donde
                 se integran diferentes maneras de aproximarnos al público objetivo. Con stickers, que fueron colocados
-                tácticamente en puntos clave cercanos a el espacio y los usuarios. También nos aproximamos por redes
+                tácticamente en puntos clave cercanos a el espacio y los usuarios.<span id="cinco"></span> También nos aproximamos por redes
                 sociales y
                 mediante activaciones interesantes que demuestran visualmente lo que puedes lograr ahí.
             </p>

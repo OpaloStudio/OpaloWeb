@@ -15,7 +15,7 @@
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
                 triggerElement: '#uno',
-                duration: 250
+                duration: 270
             })
             .setClassToggle('#imgLudi1', 'show')
             .on("end", function (event) {
@@ -27,7 +27,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#dos',
-                duration: 320
+                duration: 340
             })
             .setClassToggle('#imgLudi2', 'show')
             .on("end", function (event) {
@@ -38,7 +38,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#tres',
-                duration: 200
+                duration: 230
             })
             .setClassToggle('#imgLudi3', 'show')
             .on("end", function (event) {
@@ -49,7 +49,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#cuatro',
-                duration: 300
+                duration: 305
             })
             .setClassToggle('#imgLudi4', 'show')
             .on("end", function (event) {

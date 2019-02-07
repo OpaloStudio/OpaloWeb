@@ -15,7 +15,7 @@
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
                 triggerElement: '#uno',
-                duration: 250
+                duration: 550
             })
             .setClassToggle('#imgLookgeo1', 'show')
             .on("end", function (event) {
@@ -28,7 +28,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#dos',
-                duration: 320
+                duration: 850
             })
             .setClassToggle('#imgLookgeo2', 'show')
             .on("end", function (event) {
@@ -39,7 +39,7 @@
 
         new ScrollMagic.Scene({
                 triggerElement: '#tres',
-                duration: 200
+                duration: 780
             })
             .setClassToggle('#imgLookgeo3', 'show')
             .on("end", function (event) {
