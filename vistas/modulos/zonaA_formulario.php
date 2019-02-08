@@ -36,7 +36,7 @@
     <br><br>
     <div class="otroTipo ">
       <input class="proyecto" type="text" name="lastname" placeholder="Escribe el tipo de proyecto">
-    </div><br>
+    </div>
     <div class="inputs">
       <span class="labelInput">Describe tu proyecto</span>
       <textarea class="cajaDescripcion" name="message" rows="10"></textarea>

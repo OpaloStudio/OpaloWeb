@@ -24,7 +24,8 @@ body {
   src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.woff") format("woff"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.ttf") format("truetype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-semibold") format("svg"); }
 .zonaB {
   display: flex !important;
-  flex-direction: column !important; }
+  flex-direction: column !important;
+  z-index: 5; }
 
 .fijado {
   position: fixed;
@@ -259,6 +260,9 @@ body {
   color: white;
   cursor: pointer; }
 
+.aparecer {
+  visibility: visible; }
+
 .proyecto {
   background-color: transparent;
   border: none;
@@ -270,7 +274,8 @@ body {
 .otroTipo {
   display: flex;
   justify-content: center !important;
-  width: 100%; }
+  width: 100%;
+  visibility: hidden; }
 
 .inputs {
   width: 100%;
@@ -391,11 +396,23 @@ body {
   font-size: 13px; }
 
 .videin {
-  width: 50vw; }
+  width: 100vw;
+  z-index: -2; }
+
+.grande {
+  width: 100vw; }
 
 .contenedorVideo {
-  width: 100%;
-  z-index: -3 !important; }
+  width: 100%; }
+
+.btnVideon {
+  z-index: 9;
+  position: fixed;
+  bottom: 50px;
+  left: 48vw; }
+
+.quitar {
+  visibility: hidden; }
 
 .titulo {
   color: #432C47;

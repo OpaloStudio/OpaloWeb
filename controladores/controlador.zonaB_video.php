@@ -28,7 +28,11 @@ animateCss('.tile1', 'fadeInRight');
 });
 
 
-
+function mostrarVideo(){
+//$('.videin').toggleClass('grande');
+$('.barra').toggleClass('quitar');
+$('.info').toggleClass('quitar');
+}
 
 function sumarVideo(){
     

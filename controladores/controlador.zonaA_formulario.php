@@ -76,6 +76,7 @@
         });
         $("#btn6").click(function () {
             $("#btn6").toggleClass("activo");
+            $(".proyecto").toggleClass("aparecer");
         });
 
     });
