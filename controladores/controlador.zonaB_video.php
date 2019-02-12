@@ -1,4 +1,9 @@
 <script>
+ function mostrarVideo() {
+            //$('.videin').toggleClass('grande');
+            $('.barra').toggleClass('quitar');
+            $('.info').toggleClass('quitar');
+        }
     /*
 function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
@@ -22,6 +27,8 @@ function animateCss(element, animationName, callback) {
             smoothscroll: true,
             bouncescroll: true
         });
+
+       
 
 
         var controller = new ScrollMagic.Controller();
@@ -167,11 +174,7 @@ function animateCss(element, animationName, callback) {
 
         
 
-        function mostrarVideo() {
-            //$('.videin').toggleClass('grande');
-            $('.barra').toggleClass('quitar');
-            $('.info').toggleClass('quitar');
-        }
+       
 
 
 
