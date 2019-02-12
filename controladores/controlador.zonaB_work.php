@@ -207,9 +207,9 @@
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
                         imagen.src = "vistas/img/portafolio/lookgeo/1.png";
-                        $("#linkWork").attr("href", "?page=7");
                         $('.zonaA').css('background-color', '#FE674C');
                         animateCss('.zonaA', 'bounceInDown');
+                        $("#linkWork").attr("href", "?page=7");
                         
                     });
                     break;

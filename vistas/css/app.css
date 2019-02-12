@@ -499,7 +499,8 @@ body {
 
 .linkWork {
   text-decoration: none !important;
-  color: white; }
+  color: white;
+  z-index: 9 !important; }
 
 .linkWork:hover {
   color: #432C47;
@@ -519,7 +520,7 @@ body {
   height: 100%; }
 
 .contenedorWork {
-  color: white; }
+  z-index: 5; }
 
 .zonaLogo {
   height: 100%;
@@ -703,7 +704,7 @@ body {
   overflow: hidden; }
 
 .zonaLogoCumbre {
-  background-color: #FE674C;
+  background-color: #F9B036;
   display: flex;
   align-items: center;
   justify-content: center;
