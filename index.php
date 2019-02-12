@@ -57,6 +57,10 @@ session_start();
 						   //en el else en el orden que deben aparecer las closas
 
 		switch($_GET['page']){
+			
+			default:
+			include('controladores/controlador.zonaB_video.php');
+			break;
 
 			case '1':
 			//Video
@@ -113,12 +117,7 @@ session_start();
 			include('controladores/controlador.zonaB_alexferez.php');
 			break;
 
-
 			
-
-			case 'default':
-			
-			break;
 
 		}
 	}

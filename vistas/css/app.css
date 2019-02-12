@@ -431,6 +431,16 @@ body {
 .zonaTextoVideo {
   height: 500px; }
 
+.zonaScroll {
+  height: 500px;
+  position: absolute; }
+
+.zonaTextoVideoEscondido {
+  visibility: hidden !important; }
+
+.uno {
+  margin-top: 0px; }
+
 .tile1 {
   display: none; }
 
@@ -445,6 +455,10 @@ body {
   bottom: 100px;
   height: 50px !important;
   cursor: pointer; }
+
+.pagina {
+  position: fixed;
+  bottom: 100px; }
 
 .fondo {
   background-color: #432C47;
