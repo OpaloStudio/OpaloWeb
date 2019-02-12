@@ -50,7 +50,7 @@
                     la conceptualización de ideas o la solución de problemas diversos en proyectos transdisciplinarios.</h2>
             </div>
             <!--img src="vistas/img/flechas-02.svg" class="botonVideo" onclick="sumarVideo()"-->
-            <label class="pagina subtitulo"><span id="loc"></span> /3</label>
+            <label class="pagina subtitulo"><span id="loc"></span> / 3</label>
         </div>
     </div>
 </div>
