@@ -1,8 +1,9 @@
 <script>
  function mostrarVideo() {
             //$('.videin').toggleClass('grande');
-            $('.barra').toggleClass('quitar');
-            $('.info').toggleClass('quitar');
+            //$('.barra').toggleClass('quitar');
+            //$('.info').toggleClass('quitar');
+            $('.zonaB').toggleClass('moverZonaB');
         }
     /*
 function animateCss(element, animationName, callback) {

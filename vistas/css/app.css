@@ -25,7 +25,13 @@ body {
 .zonaB {
   display: flex !important;
   flex-direction: column !important;
-  z-index: 5; }
+  z-index: 5;
+  margin-left: 0px !important;
+  transition: 1s; }
+
+.moverZonaB {
+  transition: 1s;
+  margin-left: 800px !important; }
 
 .fijado {
   position: fixed;
