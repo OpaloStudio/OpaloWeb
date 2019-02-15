@@ -2,7 +2,7 @@
  function mostrarVideo() {
             //$('.videin').toggleClass('grande');
             //$('.barra').toggleClass('quitar');
-            //$('.info').toggleClass('quitar');
+            $('.menu-wrapper').toggleClass('quitar');
             $('.zonaB').toggleClass('moverZonaB');
         }
     /*

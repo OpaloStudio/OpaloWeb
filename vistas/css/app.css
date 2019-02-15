@@ -159,6 +159,10 @@ body {
 .zonaContacto {
   margin-top: 15px; }
 
+.direccion:hover {
+  color: purple;
+  cursor: pointer !important; }
+
 .containerCotizador {
   height: 100vh;
   background-color: #DDDDDD;
