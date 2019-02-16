@@ -222,9 +222,10 @@
                         document.getElementById("proyecto").textContent = text;
                         animateCss('.nombreProyecto', 'bounceInUp');
                         var imagen = document.getElementById("imgWork");
-                        imagen.src = "vistas/img/portafolio/paopetite/1.jpg";
+                        imagen.src = "vistas/img/portafolio/paopetite/1.png";
                         $("#linkWork").attr("href", "?page=8");
                         $('.zonaA').css('background-color', '#F7CED7');
+                        $('.zonaA').css("background-image", "url(vistas/img/portafolio/paopetite/3.png)");  
                         animateCss('.zonaA', 'bounceInDown');
                         
                     });
