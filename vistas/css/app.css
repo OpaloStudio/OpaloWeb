@@ -419,10 +419,20 @@ body {
   z-index: 9;
   position: fixed;
   bottom: 50px;
-  left: 48vw; }
+  left: 48vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: red !important; }
+
+.btnVideon:hover {
+  cursor: pointer; }
 
 .quitar {
   visibility: hidden; }
+
+.fas {
+  color: white !important; }
 
 .titulo {
   color: #432C47;
@@ -461,14 +471,17 @@ body {
   display: none; }
 
 .botonVideo {
-  position: fixed;
   bottom: 100px;
   height: 50px !important;
   cursor: pointer; }
 
+.botonVideo:focus {
+  outline: none !important; }
+
 .pagina {
   position: fixed;
-  bottom: 100px; }
+  bottom: 100px;
+  right: 50px; }
 
 .fondo {
   background-color: #432C47;

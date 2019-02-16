@@ -64,7 +64,7 @@ session_start();
 
 			case '1':
 			//Video
-			include('controladores/controlador.zonaB_video.php');
+			include_once('controladores/controlador.zonaB_video.php');
 			break;
 
 			case '2':

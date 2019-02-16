@@ -22,7 +22,7 @@
                 $('#imgPao1').toggleClass('hide');
                 console.log("hola")
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
 
@@ -34,7 +34,7 @@
             .on("end", function (event) {
                 $('#imgPao2').toggleClass('hide');
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
        

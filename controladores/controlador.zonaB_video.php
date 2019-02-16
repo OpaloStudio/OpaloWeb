@@ -1,10 +1,30 @@
 <script>
- function mostrarVideo() {
+var abierto = 0;
+
+
+
+
+function mostrarVideo() {
             //$('.videin').toggleClass('grande');
             //$('.barra').toggleClass('quitar');
-            $('.menu-wrapper').toggleClass('quitar');
-            $('.zonaB').toggleClass('moverZonaB');
-        }
+            $('.menu-wrapper').addClass('quitar');
+            $('.pagina').addClass('quitar');
+            $('.zonaB').addClass('moverZonaB');
+            $('.btnVideon').empty();
+            $('.area').html(' <button class="btnVideon" onclick="quitarVideo()"><i class="fas fa-arrow-left"></i></button>');
+}
+
+
+function quitarVideo() {
+            $('.menu-wrapper').removeClass('quitar');
+            $('.zonaB').removeClass('moverZonaB');
+            $('.pagina').removeClass('quitar');
+            $('.btnVideon').empty();
+            $('.area').html(' <button class="btnVideon" onclick="mostrarVideo()"><i class="fas fa-arrow-right"></i></button>');
+}
+      
+       
+       
     /*
 function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
@@ -20,6 +40,9 @@ function animateCss(element, animationName, callback) {
     node.addEventListener('animationend', handleAnimationEnd)
 }*/
     $(function () {
+
+var abierto;
+
         $(".zonaScroll").niceScroll({
             cursoropacitymax: 0,
             cursorcolor: "transparent",
@@ -30,7 +53,6 @@ function animateCss(element, animationName, callback) {
         });
 
        
-
 
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
