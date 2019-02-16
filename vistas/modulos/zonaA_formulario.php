@@ -6,17 +6,17 @@
     <div class="dosInputs">
       <div class="inputs2 ">
         <span class="labelInput posicion">Nombre</span><br>
-        <input class="inputContacto2" type="text" name="firstname">
+        <input class="inputContacto2" id="idNombre" type="text" name="firstname">
       </div>
       <div class="inputs2 ">
         <span class="labelInput posicion">E-mail</span><br>
-        <input class="inputContacto2" type="text" mail="mail">
+        <input class="inputContacto2" id="idCorreo" type="text" mail="mail">
       </div>
     </div><br>
     <div class=" full">
       <div class="inputFlex">
         <span class="labelInput posicion2">Compañía </span>
-        <input class="inputContacto3" type="text" name="firstname">
+        <input class="inputContacto3" id="idCompany" type="text" name="firstname">
       </div>
     </div>
     <div class="flexContacto">
@@ -27,7 +27,7 @@
       <div class="zonaBotones">
         <button class="btnFormulario" id="btn1"  type="button">Branding</button>
         <button class="btnFormulario" id="btn2"  type="button">Web-site</button>
-        <button class="btnFormulario" id="btn3"  type="button">Copy-wrating</button>
+        <button class="btnFormulario" id="btn3"  type="button">Copy-writing</button>
         <button class="btnFormulario" id="btn4"  type="button">Publicidad</button>
         <button class="btnFormulario" id="btn5"  type="button">Software</button>
         <button class="btnFormulario" id="btn6"  type="button">Otro</button>

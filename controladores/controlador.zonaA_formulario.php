@@ -95,3 +95,31 @@
   $temp.remove();
 }
     </script>
+
+<script>
+function cotizar(){
+    var idNombre = document.getElementById("idNombre").value;
+    var idCorreo = document.getElementById("idCorreo").value;
+    var idCompany = document.getElementById("idCompany").value;
+    document.getElementById("botonAgendar").disabled = true;
+    
+    $.ajax({
+        url: 'modelos/modelo.zonaA_formulario.php',
+        type: 'POST',
+        data: ({
+            idNombre: idNombre,
+            idCorreo: idCorreo,
+            idCompany: idCompany
+        }),
+        success: function(msg){
+            if(msg == 1){
+                alert("Cotización realizada exitosamente, espera la respeusta en tu correo electrónico.");
+            }
+            else{
+                document.getElementById("botonAgendar").disabled = false;
+            }
+
+        }
+    });
+}
+</script>
