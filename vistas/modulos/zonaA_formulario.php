@@ -62,7 +62,7 @@
     </div>
 
     <div class="zonaBtnSubmit">
-      <input class="btnSubmit" type="submit" value="Enviar">
+      <input class="btnSubmit"  onclick="cotizar()">
     </div>
   </form>
 </div>
