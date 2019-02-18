@@ -93,5 +93,7 @@
   $temp.val($(elemento).text()).select();
   document.execCommand("copy");
   $temp.remove();
+  $("#ballon").attr("data-balloon", "Copiado");
 }
+
     </script>

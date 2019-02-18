@@ -20,8 +20,8 @@ body {
   src: url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.eot?#AvertaStd-BoldItalic") format("embedded-opentype"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.woff") format("woff"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.ttf") format("truetype"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.svg#A") format("svg"); }
 @font-face {
   font-family: "Aberta-semibold";
-  src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot");
-  src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.woff") format("woff"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.ttf") format("truetype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-semibold") format("svg"); }
+  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot");
+  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-semibold/AvertaStd-Semibold.woff") format("woff"), url("../tipos/AvertaStd-semibold/AvertaStd-Semibold.ttf") format("truetype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-Semibold") format("svg"); }
 .zonaB {
   display: flex !important;
   flex-direction: column !important;
