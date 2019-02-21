@@ -21,7 +21,7 @@ body {
 @font-face {
   font-family: "Aberta-semibold";
   src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot");
-  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-semibold/AvertaStd-Semibold.woff") format("woff"), url("../tipos/AvertaStd-semibold/AvertaStd-Semibold.ttf") format("truetype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-Semibold") format("svg"); }
+  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.woff") format("woff"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.ttf") format("truetype"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.svg#AvertaStd-Semibold") format("svg"); }
 .zonaB {
   display: flex !important;
   flex-direction: column !important;
@@ -518,7 +518,8 @@ body {
   font-family: "AbertaBoldItalic"; }
 
 .imgCambiante {
-  height: 400px; }
+  height: 400px;
+  animation-duration: 200ms; }
 
 .linkWork {
   text-decoration: none !important;
@@ -531,19 +532,43 @@ body {
 
 .nombreProyecto {
   color: #432C47;
-  font-size: 75px;
-  margin-top: 0px;
-  margin-left: 25px;
+  font-size: 60px;
   font-family: "AbertaBoldItalic"; }
 
+.info2 {
+  background-color: #FE5442;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
 .flexWork {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .contenedorWork {
+  height: 100%;
   z-index: 5; }
+
+.colorFloyd {
+  color: #ffffff; }
+
+.colorLudi {
+  color: #7E4186; }
+
+.colorAlex {
+  color: black; }
+
+.colorPao {
+  color: #9B822E; }
+
+.colorProto {
+  color: #0BBBEF; }
+
+.colorLookgeo {
+  color: #FFFFFF; }
+
+.colorCumbre {
+  color: #FFFFFF; }
 
 .zonaLogo {
   height: 100%;
@@ -551,6 +576,80 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.work {
+  height: 95px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s; }
+
+#ludiWork:hover {
+  background-color: #FFFFFF;
+  height: 150px; }
+
+#floydWork:hover {
+  background-color: #3c3737;
+  height: 150px; }
+
+#lookgeoWork:hover {
+  background-color: #FDD64E;
+  height: 150px; }
+
+#paoWork:hover {
+  background-color: #F7CED7;
+  height: 150px; }
+
+#protoWork:hover {
+  background-color: #464646;
+  height: 150px; }
+
+#cumbreWork:hover {
+  background-color: #F9B036;
+  height: 150px; }
+
+#alexWork:hover {
+  background-color: #F3F3F3;
+  height: 150px; }
+
+#proyectoFloyd {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoLookgeo {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoLudicultura {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoPaoPetite {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoProtoplasma {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoCumbre {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoAlex {
+  animation-duration: 280ms;
+  display: none; }
+
+.masInfo {
+  display: none;
+  margin-left: 40px;
+  margin-top: -20px; }
+
+.mostrar {
+  display: block;
+  color: white; }
 
 .zonaLogoLudi {
   background-color: #FFFFFF;

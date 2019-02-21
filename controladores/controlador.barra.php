@@ -18,6 +18,7 @@
         $('.barra').toggleClass('red');
         $('.menu').toggleClass('abierto');
         $('.info').toggleClass('desaparecer');
+        $('.contenedorWork').toggleClass('desaparecer');
 
     }
 
