@@ -26,6 +26,7 @@ session_start();
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	 crossorigin="anonymous"></script>
@@ -45,7 +46,7 @@ session_start();
 
 	<?php
 	include('controladores/controlador.barra.php');
-	//include('controladores/controlador.zonaB_video.php');
+	include('controladores/controlador.zonaB_video.php');
 	//Los controladores que se utilizan en todas las páginas, se incluyen fuera del if de abajo.
 	
 	if(isset($_GET['id'])){
@@ -58,13 +59,10 @@ session_start();
 
 		switch($_GET['page']){
 			
-			default:
-			include('controladores/controlador.zonaB_video.php');
-			break;
 
 			case '1':
 			//Video
-			include('controladores/controlador.zonaB_video.php');
+			//include('controladores/controlador.zonaB_video.php');
 			break;
 
 			case '2':
@@ -117,7 +115,12 @@ session_start();
 			include('controladores/controlador.zonaB_alexferez.php');
 			break;
 
-			
+			case '12':
+			//Alex
+			include('controladores/controlador.formularioX.php');
+			break;
+
+
 
 		}
 	}
@@ -198,6 +201,10 @@ elseif(isset($_GET['page'])){
 		include('vistas/modulos/zonaA_alex.php');
 		break;
 
+		case '12':
+		//formulario
+		include('vistas/modulos/formularioX.php');
+		break;
 		
 
 	}

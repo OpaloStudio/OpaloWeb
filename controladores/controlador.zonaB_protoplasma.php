@@ -22,7 +22,7 @@
                 $('#imgProto1').toggleClass('hide');
                 console.log("hola")
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
 
@@ -34,7 +34,7 @@
             .on("end", function (event) {
                 $('#imgProto2').toggleClass('hide');
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
         new ScrollMagic.Scene({
@@ -45,7 +45,7 @@
             .on("end", function (event) {
                 $('#imgProto3').toggleClass('hide');
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
         new ScrollMagic.Scene({
@@ -56,7 +56,7 @@
             .on("end", function (event) {
                 $('#imgProto4').toggleClass('hide');
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
         new ScrollMagic.Scene({
@@ -67,7 +67,7 @@
             .on("end", function (event) {
                 $('#imgProto5').toggleClass('hide');
             })
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller); // Add Scene to ScrollMagic Controller
 
        

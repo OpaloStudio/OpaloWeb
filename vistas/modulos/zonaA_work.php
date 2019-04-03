@@ -1,3 +1,5 @@
 <div class="zonaLogo"> 
-    <img class="imgCambiante" id="imgWork" src="">
+    <a class="linkA" href="">
+        <img class="imgCambiante faster" id="imgWork" src="">
+    </a>
 </div>

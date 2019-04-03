@@ -1,3 +1,3 @@
 <div class="info flexyLab">
-    <h1 class=" proximamente">Proximamente</h1>
+    <h1 class=" proximamente">Próximamente</h1>
 </div>

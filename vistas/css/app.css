@@ -20,8 +20,8 @@ body {
   src: url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.eot?#AvertaStd-BoldItalic") format("embedded-opentype"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.woff") format("woff"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.ttf") format("truetype"), url("../tipos/AvertaStd-BoldItalic/AvertaStd-BoldItalic.svg#A") format("svg"); }
 @font-face {
   font-family: "Aberta-semibold";
-  src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot");
-  src: url("../tipos/AvertaStd-semibold/AvertaStd-semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.woff") format("woff"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.ttf") format("truetype"), url("../tipos/AvertaStd-semibold/AvertaStd-semibold.svg#AvertaStd-semibold") format("svg"); }
+  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot");
+  src: url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.eot?#amocristalab") format("embedded-opentype"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.woff") format("woff"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.ttf") format("truetype"), url("../tipos/AvertaStd-Semibold/AvertaStd-Semibold.svg#AvertaStd-Semibold") format("svg"); }
 .zonaB {
   display: flex !important;
   flex-direction: column !important;
@@ -419,10 +419,20 @@ body {
   z-index: 9;
   position: fixed;
   bottom: 50px;
-  left: 48vw; }
+  left: 48vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: red !important; }
+
+.btnVideon:hover {
+  cursor: pointer; }
 
 .quitar {
   visibility: hidden; }
+
+.fas {
+  color: white !important; }
 
 .titulo {
   color: #432C47;
@@ -461,14 +471,17 @@ body {
   display: none; }
 
 .botonVideo {
-  position: fixed;
   bottom: 100px;
   height: 50px !important;
   cursor: pointer; }
 
+.botonVideo:focus {
+  outline: none !important; }
+
 .pagina {
   position: fixed;
-  bottom: 100px; }
+  bottom: 100px;
+  right: 50px; }
 
 .fondo {
   background-color: #432C47;
@@ -505,7 +518,8 @@ body {
   font-family: "AbertaBoldItalic"; }
 
 .imgCambiante {
-  height: 400px; }
+  height: 400px;
+  animation-duration: 200ms; }
 
 .linkWork {
   text-decoration: none !important;
@@ -518,19 +532,43 @@ body {
 
 .nombreProyecto {
   color: #432C47;
-  font-size: 75px;
-  margin-top: 0px;
-  margin-left: 25px;
+  font-size: 60px;
   font-family: "AbertaBoldItalic"; }
 
+.info2 {
+  background-color: #FE5442;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
 .flexWork {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .contenedorWork {
+  height: 100%;
   z-index: 5; }
+
+.colorFloyd {
+  color: #ffffff; }
+
+.colorLudi {
+  color: #7E4186; }
+
+.colorAlex {
+  color: black; }
+
+.colorPao {
+  color: #9B822E; }
+
+.colorProto {
+  color: #0BBBEF; }
+
+.colorLookgeo {
+  color: #FFFFFF; }
+
+.colorCumbre {
+  color: #FFFFFF; }
 
 .zonaLogo {
   height: 100%;
@@ -538,6 +576,80 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.work {
+  height: 95px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s; }
+
+#ludiWork:hover {
+  background-color: #FFFFFF;
+  height: 150px; }
+
+#floydWork:hover {
+  background-color: #3c3737;
+  height: 150px; }
+
+#lookgeoWork:hover {
+  background-color: #FDD64E;
+  height: 150px; }
+
+#paoWork:hover {
+  background-color: #F7CED7;
+  height: 150px; }
+
+#protoWork:hover {
+  background-color: #464646;
+  height: 150px; }
+
+#cumbreWork:hover {
+  background-color: #F9B036;
+  height: 150px; }
+
+#alexWork:hover {
+  background-color: #F3F3F3;
+  height: 150px; }
+
+#proyectoFloyd {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoLookgeo {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoLudicultura {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoPaoPetite {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoProtoplasma {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoCumbre {
+  animation-duration: 280ms;
+  display: none; }
+
+#proyectoAlex {
+  animation-duration: 280ms;
+  display: none; }
+
+.masInfo {
+  display: none;
+  margin-left: 40px;
+  margin-top: -20px; }
+
+.mostrar {
+  display: block;
+  color: white; }
 
 .zonaLogoLudi {
   background-color: #FFFFFF;
@@ -642,7 +754,10 @@ body {
   overflow: hidden; }
 
 .zonaLogoPaoPetite {
-  background-color: #F7CED7;
+  background-image: url("../../img/portafolio/paopetite/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -668,10 +783,6 @@ body {
   -ms-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   opacity: 0; }
-
-#imgPao1 {
-  height: 100vh;
-  width: 50vw; }
 
 #zonaPaoPetite {
   height: 65vh;
