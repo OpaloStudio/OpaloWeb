@@ -203,7 +203,7 @@ elseif(isset($_GET['page'])){
 
 		case '12':
 		//formulario
-		include('vistas/modulos/formularioX.php');
+		include('vistas/modulos/zonaA_formularioX.php');
 		break;
 		
 
@@ -287,6 +287,11 @@ elseif(isset($_GET['page'])){
 		case '11':
 		//Alex
 		include('vistas/modulos/zonaB_alex.php');
+		break;
+
+		case '12':
+		//formulario
+		include('vistas/modulos/zonaB_formularioX.php');
 		break;
 
 		
