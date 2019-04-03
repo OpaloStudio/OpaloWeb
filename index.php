@@ -115,6 +115,11 @@ session_start();
 			include('controladores/controlador.zonaB_alexferez.php');
 			break;
 
+			case '12':
+			//Alex
+			include('controladores/controlador.formularioX.php');
+			break;
+
 
 
 		}
@@ -196,6 +201,10 @@ elseif(isset($_GET['page'])){
 		include('vistas/modulos/zonaA_alex.php');
 		break;
 
+		case '12':
+		//formulario
+		include('vistas/modulos/formularioX.php');
+		break;
 		
 
 	}
