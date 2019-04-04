@@ -29,9 +29,7 @@
     <div class="zonaTextoVideo" >
         <div class="tile1" id="tile1">
             <h1 class="titulo">Hola, somos Ópalo</h1>
-            <h2 class="subtitulo"> Ser un referente internacional en la incubación de equipos de trabajo multidisciplinarios,
-                    que, mediante la ejecución de nuestras metodologías de innovación, implementen estrategias de desarrollo para
-                    la conceptualización de ideas o la solución de problemas diversos en proyectos transdisciplinarios.</h2>
+            <h2 class="subtitulo"> Más que un estudio creativo, somos un grupo interdisciplinario de jóvenes que decidimos unir nuestros conocimientos para solucionar problemas.</h2>
             
             </div>
            
