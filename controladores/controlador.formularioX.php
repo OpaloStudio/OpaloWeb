@@ -1,6 +1,7 @@
 <script>
     $(function () {
         
+    
 
         $(".containerCotizador").niceScroll({
             scrollspeed: 60,
@@ -13,6 +14,6 @@
        
    
     });
-
+   
     
 </script>

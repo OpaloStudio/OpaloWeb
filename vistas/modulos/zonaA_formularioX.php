@@ -60,7 +60,7 @@
     
 
     <div class="zonaBtnSubmit">
-      <input class="btnSubmit" type="submit" value="Enviar">
+      <input class="btnSubmit" type="submit" value="Enviar" >
     </div>
   </form>
 </div>
